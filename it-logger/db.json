@@ -1,0 +1,56 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed hard drive on workstation 005",
+      "attention": false,
+      "date": "03-02-2021",
+      "tech": "San Smith"
+    },
+    {
+      "id": 2,
+      "message": "Workstation 002 not posting",
+      "attention": true,
+      "date": "03-02-2021",
+      "tech": "John Doe"
+    },
+    {
+      "id": 3,
+      "message": "Changed memory on workstation 050",
+      "attention": false,
+      "date": "03-02-2021",
+      "tech": "Sarah Wilson"
+    },
+    {
+      "message": "Change network cards on server 007",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2022-01-23T18:46:17.474Z",
+      "id": 4
+    },
+    {
+      "message": "Deploye rest API on server 012",
+      "attention": true,
+      "tech": "Sarah Wilson",
+      "date": "2022-01-23T18:55:09.468Z",
+      "id": 5
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    {
+      "id": 2,
+      "firstname": "San",
+      "lastname": "Smith"
+    },
+    {
+      "id": 3,
+      "firstname": "Sarah",
+      "lastname": "Wilson"
+    }
+  ]
+}
