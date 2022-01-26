@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addLogs } from '../../actions/logAction';
+import TechSelectOption from '../techs/TechSelectOption';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLogModal = ({ addLogs }) => {
@@ -43,7 +44,7 @@ const AddLogModal = ({ addLogs }) => {
                     onChange={e => setMessage(e.target.value)}
                     />
                     <label htmlFor='message' className='active'>
-                      Log Message
+                     Add Log Message
                     </label>
               </div>
            </div>
@@ -57,9 +58,7 @@ const AddLogModal = ({ addLogs }) => {
               <option value='' disabled>
                 Select Technician
                 </option>
-              <option value='John Doe'>John Doe</option>
-              <option value='Sam Smith'>Sam Smith</option>
-              <option value='Sarah Wilson'>Sarah Wilson</option>  
+                 <TechSelectOption /> 
                </select>  
              </div>
            </div>

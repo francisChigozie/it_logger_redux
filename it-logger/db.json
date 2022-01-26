@@ -2,38 +2,31 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed hard drive on workstation 005",
+      "message": "H!  We are meeting today",
       "attention": false,
-      "date": "03-02-2021",
-      "tech": "San Smith"
-    },
-    {
-      "id": 2,
-      "message": "Workstation 002 not posting",
-      "attention": true,
-      "date": "03-02-2021",
-      "tech": "John Doe"
-    },
-    {
-      "id": 3,
-      "message": "Changed memory on workstation 050",
-      "attention": false,
-      "date": "03-02-2021",
-      "tech": "Sarah Wilson"
+      "tech": "Jerry Francis",
+      "date": "2022-01-25T09:49:48.568Z"
     },
     {
       "message": "Change network cards on server 007",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2022-01-23T18:46:17.474Z",
-      "id": 4
+      "attention": true,
+      "tech": "Chiamaka Francis",
+      "date": "2022-01-25T09:48:54.752Z",
+      "id": 2
     },
     {
-      "message": "Deploye rest API on server 012",
-      "attention": true,
-      "tech": "Sarah Wilson",
-      "date": "2022-01-23T18:55:09.468Z",
-      "id": 5
+      "message": "H!  We are meeting today",
+      "attention": false,
+      "tech": "Jerry Francis",
+      "date": "2022-01-25T09:49:03.642Z",
+      "id": 3
+    },
+    {
+      "message": "Deploment on server T77",
+      "attention": false,
+      "tech": "GitHub Finder",
+      "date": "2022-01-26T09:45:44.900Z",
+      "id": 4
     }
   ],
   "techs": [
@@ -43,14 +36,19 @@
       "lastname": "Doe"
     },
     {
-      "id": 2,
-      "firstname": "San",
-      "lastname": "Smith"
+      "firstname": "Jerry",
+      "lastname": "Francis",
+      "id": 2
     },
     {
-      "id": 3,
-      "firstname": "Sarah",
-      "lastname": "Wilson"
+      "firstname": "Chiamaka",
+      "lastname": "Francis",
+      "id": 3
+    },
+    {
+      "firstname": "GitHub",
+      "lastname": "Finder",
+      "id": 4
     }
   ]
 }
